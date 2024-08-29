@@ -1,8 +1,32 @@
 # Kepler Approval Board
 
-Este repositorio contiene una aplicaci'un web moderno para gestion de tareas en la 'Cancha de Autorizaci'n’ con integracion a ClickUp, autenticación de usuarios y notificaciones.
+Este repositorio contiene una aplicación web moderna para gestión de tareas en la 'Cancha de Autorización' con integración a ClickUp, autenticación de usuarios y notificaciones.
 
-Funcionesc\n
- - Autenticación de usuarios con registro y verificación de correos.\n - Diseño moderno del tablero para gisionar tareas.\n - Posibilidad de aceptar, rechazar o comentar sobre tareas.\n - Sincronización con ClickUp para actualizar tareas de actualizcación.\n - Notificaciones de correos basadas en las acciones sergindo.
+## Funciones principales
 
-Proyecto configurado para usar tecnologias modernas y elegantes.
+- Autenticación de usuarios con registro y verificación de correos.
+- Diseño moderno del tablero para gestionar tareas, similar a ClickUp.
+- Posibilidad de aceptar, rechazar o comentar sobre tareas.
+- Sincronización con ClickUp para actualizar tareas automáticamente.
+- Notificaciones por correo basadas en las acciones seguidas.
+
+## Tecnologías utilizadas
+
+### Frontend
+- React
+- Tailwind CSS o Styled Components
+- Axios
+- React Router DOM
+- Formik y Yup
+
+### Backend
+- Node.js con Express
+- JWT (JSON Web Tokens)
+- Nodemailer
+- ClickUp API
+- PostgreSQL
+- Sequelize o TypeORM
+- Express Validator
+- Dotenv
+
+## Estructura del proyecto

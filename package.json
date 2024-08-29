@@ -1,0 +1,18 @@
+{
+  "name": "kepler-approval-board",
+  "version": "1.0.0",
+  "description": "Aplicación web para gestión de tareas con integración a ClickUp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": ["kepler", "approval", "clickup", "tasks"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
